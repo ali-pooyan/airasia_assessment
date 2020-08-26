@@ -1,0 +1,24 @@
+a = inheritance feature in object oriented programming is not consider becasue in Animal class if we add one method such as crawl we couldn't consider in other child class 
+b = should be have one more inital method in animal class and after that whole obejct should be check in others class that will be extend in animal class 
+should be change like that:
+
+
+abstract class Animal {
+
+
+function initial(self):
+self object1= object1
+self object2=object2 
+.
+.
+.
+.      
+}    
+class Bird extends Animal {
+if self.animal==True :
+print (self.animal)
+}
+else : 
+print(“Not supported”)
+
+
