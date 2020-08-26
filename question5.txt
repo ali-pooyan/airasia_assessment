@@ -1,0 +1,1 @@
+To check wether a number is a power of 2 or not, the O(1) solution would be to check the equialioty of the remainder of that number to two. If the raminder is zero, the number is detected as a power of two.
