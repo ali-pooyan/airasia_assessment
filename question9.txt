@@ -1,0 +1,51 @@
+Overriding function is the definition under which function of the child class overrides the function of the base class which has the same name. That is only possible in different classes while Overloading is the ability to define functions of the same name, as long as they have different signatures.
+Example of overriding:
+class Animal:
+  # properties
+	multicellular = True
+	# Eukaryotic means Cells with Nucleus
+	eukaryotic = True
+	
+	# function breath
+	def breathe(self):
+	    print("I breathe oxygen.")
+    
+  # function feed
+	def feed(self):
+	    print("I eat food.")
+	    
+# child class	    
+class Herbivorous(Animal):
+    
+    # function feed
+	def feed(self):
+	    print("I eat only plants. I am vegetarian.")
+
+herbi = Herbivorous()
+herbi.feed()
+# calling some other function
+herbi.breathe()
+
+Example of overloading
+
+# class
+class Compute:
+# area method
+def area(self, x = None, y = None):
+if x != None and y != None:
+return x * y
+elif x != None:
+return x * x
+else:
+return 0
+# object
+obj = Compute()
+# zero argument
+print("Area Value:", obj.area())
+# one argument
+print("Area Value:", obj.area(4))
+# two argument
+print("Area Value:", obj.area(3, 5))
+
+
+
