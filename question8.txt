@@ -1,0 +1,2 @@
+NO.Physical addresses refer to hardware addresses of physical memory.Virtual addresses refer to the virtual store viewed by the process.virtual addresses might be the same as physical addresses.virtual space is limited by size of virtual addresses (not physical addresses)
+virtual space and physical memory space are independent.processes don’t use all of the whole of space.only a portion of the address space that processes do use is loaded into physical memory at a time
