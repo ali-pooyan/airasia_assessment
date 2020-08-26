@@ -1,0 +1,2 @@
+YES, in Unix Core , fork is an operation whereby a process creates a copy of parent 
+when we perform the fork () in memory , OS create separate child and memory from the parent, so child cannot share the memory with together but each of child have share memory with parent  
